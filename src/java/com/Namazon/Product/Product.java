@@ -1,4 +1,4 @@
-package com.Namazon.test.Product;
+package com.Namazon.Product;
 
 
 public class Product {

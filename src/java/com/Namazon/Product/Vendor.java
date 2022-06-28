@@ -1,9 +1,9 @@
-package com.Namazon.test.Product;
+package com.Namazon.Product;
 
-import com.Namazon.test.AccountandInfo.Account;
-import com.Namazon.test.AccountandInfo.Address;
-import com.Namazon.test.Order.Order;
-import com.Namazon.test.Order.OrderStatus;
+import com.Namazon.AccountandInfo.Account;
+import com.Namazon.AccountandInfo.Address;
+import com.Namazon.Order.Order;
+import com.Namazon.Order.OrderStatus;
 
 import java.util.*;
 

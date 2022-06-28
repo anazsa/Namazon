@@ -1,9 +1,9 @@
-package com.Namazon.test;
+package com.Namazon;
 
 
-import com.Namazon.test.AccountandInfo.Account;
-import com.Namazon.test.AccountandInfo.Customer;
-import com.Namazon.test.Product.Vendor;
+import com.Namazon.AccountandInfo.Account;
+import com.Namazon.AccountandInfo.Customer;
+import com.Namazon.Product.Vendor;
 
 import java.util.ArrayList;
 import java.util.List;

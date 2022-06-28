@@ -1,4 +1,4 @@
-package com.Namazon.test.AccountandInfo;
+package com.Namazon.AccountandInfo;
 
 
 

@@ -1,4 +1,4 @@
-package com.Namazon.test.Product;
+package com.Namazon.Product;
 
     public enum ProductCategory {
         ELECTRONICS("Electronics"), ATHLETICS("Athletics"), CLOTHING("Clothing"),HOME_APPLIANCES("Home Appliances");

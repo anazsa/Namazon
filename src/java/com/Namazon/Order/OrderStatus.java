@@ -1,4 +1,4 @@
-package com.Namazon.test.Order;
+package com.Namazon.Order;
 
 public enum OrderStatus {
     PENDING("Pending"),SHIPPED("Shipped"), DELIVERED("Delivered");
@@ -7,5 +7,12 @@ public enum OrderStatus {
 
     OrderStatus(String name){
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderStatus{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

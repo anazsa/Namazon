@@ -1,7 +1,7 @@
-package com.Namazon.test.Order;
+package com.Namazon.Order;
 
-import com.Namazon.test.AccountandInfo.Address;
-import com.Namazon.test.Product.Product;
+import com.Namazon.AccountandInfo.Address;
+import com.Namazon.Product.Product;
 
 
 public class Order {

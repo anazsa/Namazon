@@ -1,22 +1,29 @@
-package Namazon.Product;
+package com.Namazon.test.Product;
 
-import AccountandInfo.*;
-import Namazon.Order.Order;
-import Namazon.Order.OrderStatus;
+import com.Namazon.test.AccountandInfo.Account;
+import com.Namazon.test.AccountandInfo.Address;
+import com.Namazon.test.Order.Order;
+import com.Namazon.test.Order.OrderStatus;
+
 import java.util.*;
 
 
-    public class Vendor  {
+    public class Vendor extends Account {
         private String brandName;
         private Map<String, Product> inventory;
         private Product[] showCase;
         private List<Order> orders;
 
         public Vendor(String brandName) {
+            super("","","","");
             this.brandName = brandName;
             this.inventory = new HashMap<>();
             this.showCase = new Product[5];
             this.orders = new ArrayList<>();
+        }
+
+        public Vendor(String brandName, String firstName, String lastName, String email, String passWord) {
+            super("","","","");
         }
 
         public String getBrandName() {

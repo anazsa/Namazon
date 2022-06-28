@@ -1,4 +1,4 @@
-package AccountandInfo;
+package com.Namazon.test.AccountandInfo;
 
 public class Address {
     private String street;

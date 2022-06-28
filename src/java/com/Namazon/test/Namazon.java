@@ -1,18 +1,21 @@
-package Namazon;
-import AccountandInfo.Customer;
+package com.Namazon.test;
+
+
+import com.Namazon.test.AccountandInfo.Account;
+import com.Namazon.test.AccountandInfo.Customer;
+import com.Namazon.test.Product.Vendor;
 
 import java.util.ArrayList;
 import java.util.List;
-import Namazon.Product.Vendor;
-import AccountandInfo.Account;
 
 
-public class Namazon extends {
+public class Namazon extends Account {
     private List<Customer> customers;
     private List<Vendor> vendors;
     private List<Account> accounts;
 
     public Namazon() {
+        super("","","","");
         this.customers = new ArrayList<>();
         this.vendors  = new ArrayList<>();
         this.accounts = new ArrayList<>();

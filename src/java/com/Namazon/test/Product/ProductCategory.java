@@ -1,4 +1,4 @@
-package Namazon.Product;
+package com.Namazon.test.Product;
 
     public enum ProductCategory {
         ELECTRONICS("Electronics"), ATHLETICS("Athletics"), CLOTHING("Clothing"),HOME_APPLIANCES("Home Appliances");

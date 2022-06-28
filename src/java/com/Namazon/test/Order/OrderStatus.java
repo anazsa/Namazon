@@ -1,4 +1,4 @@
-package Namazon.Order;
+package com.Namazon.test.Order;
 
 public enum OrderStatus {
     PENDING("Pending"),SHIPPED("Shipped"), DELIVERED("Delivered");

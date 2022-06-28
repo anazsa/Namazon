@@ -1,4 +1,4 @@
-package Namazon.Product;
+package com.Namazon.test.Product;
 
 
 public class Product {

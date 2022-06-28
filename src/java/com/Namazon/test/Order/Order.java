@@ -1,6 +1,7 @@
-package Namazon.Order;
-import AccountandInfo.*;
-import Namazon.Product.Product;
+package com.Namazon.test.Order;
+
+import com.Namazon.test.AccountandInfo.Address;
+import com.Namazon.test.Product.Product;
 
 
 public class Order {
